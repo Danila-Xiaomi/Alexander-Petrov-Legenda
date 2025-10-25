@@ -1,0 +1,17 @@
+@font-face {
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 300;
+src:
+local('SF Pro Text'),
+url('fonts/SFProText-Light.woff2'), format ('woff'),
+url('fonts/SFProText-Light.woff'), format ('woff'),
+url('fonts/SFProText-light.eot'), format ('ttf'),
+url('fonts/SFProText-light.eot'), format ('eot');
+}
+
+body {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 300;  
+}
