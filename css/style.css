@@ -1,14 +1,155 @@
+/* подгружаем основной и единственный шрифт SF Pro Text - обычный, жирный, курсив и жир.курсив*/
+
+/* ПОДУМАТЬ НА СЧЕТ КОЛИЧЕСТВА ВАРИАНТОВ ЖИРНОСТИ И ВОЗМОЖНО ДОБАВИТЬ НОВЫЕ ОПЦИИ */
+
+/* SF Pro Text - Light 300 - Regular */
 @font-face {
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 300;
-    src:
-    local('SF Pro Text'),
-    url('fonts/SFProText-Light.woff2'), format('woff'),
+    src: 
+    local('SF Pro Text')
+    url('fonts/SFProText-Light.woff2'), format('woff2'),
     url('fonts/SFProText-Light.woff'), format('woff'),
-    url('fonts/SFProText-Light.eot'), format('ttf'),
+    url('fonts/SFProText-Light.ttf'), format('ttf'),
     url('fonts/SFProText-Light.eot'), format('eot');
 }
+
+/* SF Pro Text - Light 300 - Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 300;
+    src:
+    local('SF Pro Text')
+    url('fonts/SFProText-LightItalic.woff2'), format('woff2'),
+    url('fonts/SFProText-LightItalic.woff'), format('woff'),
+    url('fonts/SFProText-LightItalic.ttf'), format('ttf'),
+    url('fonts/SFProText-LightItalic.eot'), format('eot');
+}
+
+/* SF Pro Text - Regular 400 - Regular */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SF Pro Text')
+    url('fonts/SFProText-Regular.woff2'), format('woff2'),
+    url('fonts/SFProText-Regular.woff'), format('woff'),
+    url('fonts/SFProText-Regular.ttf'), format('ttf'),
+    url('fonts/SFProText-Regular.eot'), format('eot');
+}
+
+/* SF Pro Text - Regular 400 - Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 400;
+    src: local('SF Pro Text')
+    url('fonts/SFProText-RegularItalic.woff2'), format('woff2'),
+    url('fonts/SFProText-RegularItalic.woff'), format('woff'),
+    url('fonts/SFProText-RegularItalic.ttf'), format('ttf'),
+    url('fonts/SFProText-RegularItalic.eot'), format('eot');
+}
+
+/* SF Pro Text - Medium 500 - Regular */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    src: local('SF Pro Text')
+    url('fonts/SFProText-Medium.woff2'), format('woff2'),
+    url('fonts/SFProText-Medium.woff'), format('woff'),
+    url('fonts/SFProText-Medium.ttf'), format('ttf'),
+    url('fonts/SFProText-Medium.eot'), format('eot');
+}
+
+/* SF Pro Text - Medium 500 - Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 500;
+    src: local('SF Pro Text')
+    url('fonts/SFProText-MediumItalic.woff2'), format('woff2'),
+    url('fonts/SFProText-MediumItalic.woff'), format('woff'),
+    url('fonts/SFProText-MediumItalic.ttf'), format('ttf'),
+    url('fonts/SFProText-MediumItalic.eot'), format('eot');
+}
+
+/* SF Pro Text - Semi-bold 600 - Regular */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    src: local('SF Pro Text')
+    url('fonts/SFProText-Semibold.woff2'), format('woff2'),
+    url('fonts/SFProText-Semibold.woff'), format('woff'),
+    url('fonts/SFProText-Semibold.ttf'), format('ttf'),
+    url('fonts/SFProText-Semibold.eot'), format('eot');
+}
+
+/* SF Pro Text - Semi-bold 600 - Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 600;
+    src: local('SF Pro Text')
+    url('fonts/SFProText-SemiboldItalic.woff2'), format('woff2'),
+    url('fonts/SFProText-SemiboldItalic.woff'), format('woff'),
+    url('fonts/SFProText-SemiboldItalic.ttf'), format('ttf'),
+    url('fonts/SFProText-SemiboldItalic.eot'), format('eot');
+}
+
+/* SF Pro Text - Bold 700 - Regular */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    src: local('SF Pro Text')
+    url('fonts/SFProText-Bold.woff2'), format('woff2'),
+    url('fonts/SFProText-Bold.woff'), format('woff'),
+    url('fonts/SFProText-Bold.ttf'), format('ttf'),
+    url('fonts/SFProText-Bold.eot'), format('eot');
+}
+
+/* SF Pro Text - Bold 700 - Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 700;
+    src: local('SF Pro Text')
+    url('fonts/SFProText-BoldItalic.woff2'), format('woff2'),
+    url('fonts/SFProText-BoldItalic.woff'), format('woff'),
+    url('fonts/SFProText-BoldItalic.ttf'), format('ttf'),
+    url('fonts/SFProText-BoldItalic.eot'), format('eot');
+}
+
+/* SF Pro Text - Extra-bold 800 - Regular */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 800;
+    src: local('SF Pro Text')
+    url('fonts/SFProText-Extra-bold.woff2'), format('woff2'),
+    url('fonts/SFProText-Extra-bold.woff'), format('woff'),
+    url('fonts/SFProText-Extra-bold.ttf'), format('ttf'),
+    url('fonts/SFProText-Extra-bold.eot'), format('eot');
+}
+
+/* SF Pro Text - Extra-bold 800 - Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 800;
+    src: local('SF Pro Text')
+    url('fonts/SFProText-Extra-boldItalic.woff2'), format('woff2'),
+    url('fonts/SFProText-Extra-boldtalic.woff'), format('woff'),
+    url('fonts/SFProText-Extra-boldItalic.ttf'), format('ttf'),
+    url('fonts/SFProText-Extra-boldItalic.eot'), format('eot');
+}
+
+
+
 
 body {
     font-family: 'SF Pro Text';
