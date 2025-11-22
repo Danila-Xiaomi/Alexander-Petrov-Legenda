@@ -3,6 +3,31 @@
 /* ПОДУМАТЬ НА СЧЕТ КОЛИЧЕСТВА ВАРИАНТОВ ЖИРНОСТИ И ВОЗМОЖНО ДОБАВИТЬ НОВЫЕ ОПЦИИ */
 
 /* SF Pro Text - Light 300 - Regular */
+.journal-ids {
+ width: 320px;   
+ padding: 20px;
+ border: 2px;
+ margin-top: 23px;
+font-size: 23px;
+font-weight: 400;
+
+color:#1f151552;
+background-color:rgb(231, 196, 196);
+
+border-radius: 25px;
+}       
+
+.journal-ids > p  {
+margin:0px;
+}
+
+
+
+ 
+
+
+
+
 @font-face {
     font-family: 'SF Pro Text';
     font-style: normal;
